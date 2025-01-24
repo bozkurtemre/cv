@@ -117,14 +117,6 @@ function PrintContact({ contact, personalWebsiteUrl }: PrintContactProps) {
           <span aria-hidden="true">/</span>
         </>
       )}
-      {contact.tel && (
-        <a
-          className="underline hover:text-foreground/70"
-          href={`tel:${contact.tel}`}
-        >
-          {contact.tel}
-        </a>
-      )}
     </div>
   );
 }
