@@ -172,4 +172,5 @@ export const RESUME_DATA = {
     "Design Systems",
     "System Architecture",
   ],
+  projects: []
 } as const;
